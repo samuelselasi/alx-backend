@@ -1,5 +1,8 @@
 # 0x00. Pagination
 #### `Back-end`
+![3646eb02de6527ca5d83](https://github.com/samuelselasi/alx-backend/assets/85158665/3590324b-05de-4f98-950a-7f7f93c8b10b)
+![746187b76bea1f46030e](https://github.com/samuelselasi/alx-backend/assets/85158665/617fd6ce-132e-45a1-8a6d-160e2909776e)
+![665ce871c2ecc66a8e71](https://github.com/samuelselasi/alx-backend/assets/85158665/22608507-b37d-4dde-8479-33f21db77bf8)
 
 ## Resources
 **Read or watch**:
