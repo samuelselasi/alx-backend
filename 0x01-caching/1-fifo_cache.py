@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module conatining class with a FIFI(First In First Out) caching system"""
+"""Module conatining class with a FIFO(First In First Out) caching system"""
 BaseCaching = __import__('base_caching').BaseCaching
 
 
