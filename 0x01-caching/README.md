@@ -1,5 +1,6 @@
 # 0x01. Caching
 #### `Back-end`
+![cache](https://github.com/samuelselasi/alx-backend/assets/85158665/ef5c5463-1481-4b67-a8fd-e89193f8fbf2)
 
 ## Background Context
 In this project, you learn different caching algorithms.
