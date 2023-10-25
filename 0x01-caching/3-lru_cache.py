@@ -10,8 +10,8 @@ class LRUCache(BaseCaching):
         """Function to initialise class intances"""
 
         super().__init__()
-        self.head = "-"
-        self.tail = "="
+        self.head = ""
+        self.tail = ""
 
         self.previous = {}
         self.next = {}
