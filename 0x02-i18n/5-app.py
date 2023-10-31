@@ -49,8 +49,8 @@ def get_user():
     """Function that retirns user dictionary"""
 
     try:
-        id = request.args.get('login_as')
-        return users[int(id)]
+        user_id = request.args.get('login_as')
+        return users[int(user_id)]
 
     except Exception:
         return None
