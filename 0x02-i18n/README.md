@@ -91,4 +91,5 @@ In your `get_locale` function, detect if the incoming request contains `locale` 
 Now you should be able to test different translations by visiting `http://127.0.0.1:5000?locale=[fr|en]`.
 
 ##### Visiting `http://127.0.0.1:5000/?locale=fr` should display this level 1 heading:
+<img width="254" alt="f958f4a1529b535027ce" src="https://github.com/samuelselasi/alx-backend/assets/85158665/bb27b517-f3ed-4188-96fb-be39cfd7435d">
 
