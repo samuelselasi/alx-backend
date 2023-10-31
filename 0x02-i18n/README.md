@@ -119,4 +119,7 @@ In your HTML template, if a user is logged in, in a paragraph tag, display a wel
 | `not_logged_in` | `"You are not logged in."` | `"Vous n'êtes pas connecté."` |
 
 ##### Visiting `http://127.0.0.1:5000/` in your browser should display this:
+<img width="213" alt="2c5b2c8190f88c6b4668" src="https://github.com/samuelselasi/alx-backend/assets/85158665/706c2063-39fb-471d-a8b9-3058fb5b202f">
 
+##### Visiting `http://127.0.0.1:5000/?login_as=2` in your browser should display this:
+<img width="259" alt="277f24308c856a09908c" src="https://github.com/samuelselasi/alx-backend/assets/85158665/1607b639-32aa-4aa1-9a75-cefb96d37a9a">
