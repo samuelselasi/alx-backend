@@ -1,5 +1,6 @@
 # 0x02. i18n
 #### `Back-end`
+![91e1c50322b2428428f9](https://github.com/samuelselasi/alx-backend/assets/85158665/b78ed6d7-8ae2-4df1-96f2-701e803018fe)
 
 ## Resources
 **Read or watch**:
