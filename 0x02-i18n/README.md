@@ -138,3 +138,5 @@ The order of priority should be
 
 Test by logging in as different users
 
+<img width="272" alt="9941b480b0b9d87dc5de" src="https://github.com/samuelselasi/alx-backend/assets/85158665/82527a9f-ce4c-4471-8110-b870738d2bf6">
+
