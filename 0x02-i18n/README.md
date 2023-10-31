@@ -123,3 +123,18 @@ In your HTML template, if a user is logged in, in a paragraph tag, display a wel
 
 ##### Visiting `http://127.0.0.1:5000/?login_as=2` in your browser should display this:
 <img width="259" alt="277f24308c856a09908c" src="https://github.com/samuelselasi/alx-backend/assets/85158665/1607b639-32aa-4aa1-9a75-cefb96d37a9a">
+
+
+[6. Use user locale](./6-app.py)
+
+Change your `get_locale` function to use a user’s preferred local if it is supported.
+
+The order of priority should be
+
+1. Locale from URL parameters
+2. Locale from user settings
+3. Locale from request header
+4. Default locale
+
+Test by logging in as different users
+
