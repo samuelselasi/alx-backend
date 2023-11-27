@@ -1,6 +1,7 @@
 # 0x03. Queuing System in JS
 #### `Back-end` `JavaScript` `ES6` `Redis` `NodeJS` `ExpressJS` `Kue`
-file:///home/sel/Downloads/1486e02a78cdf7b4557c.png
+
+![1486e02a78cdf7b4557c](https://github.com/samuelselasi/alx-backend/assets/85158665/097e8d98-a1d8-4880-9a08-dd0819320f55)
 
 ## Resources
 ### Read or watch:
