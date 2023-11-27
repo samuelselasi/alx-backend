@@ -1,5 +1,6 @@
 # 0x03. Queuing System in JS
 #### `Back-end` `JavaScript` `ES6` `Redis` `NodeJS` `ExpressJS` `Kue`
+file:///home/sel/Downloads/1486e02a78cdf7b4557c.png
 
 ## Resources
 ### Read or watch:
