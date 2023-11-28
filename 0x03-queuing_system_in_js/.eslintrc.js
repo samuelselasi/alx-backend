@@ -17,6 +17,11 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['jest'],
+  settings: {
+    jest: {
+      version: 29.7,
+    },
+  },
   rules: {
     'no-console': 'off',
     'no-shadow': 'off',
@@ -31,5 +36,5 @@ module.exports = {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
     }
-  ]
+  ],
 };
