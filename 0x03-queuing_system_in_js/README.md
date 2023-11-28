@@ -155,3 +155,30 @@ Reply: OK
 bob@dylan:~$
 ```
 
+[3. Node Redis client and async operations](./2-redis_op_async.js)
+
+In a file `2-redis_op_async.js`, let’s copy the code from the previous exercise (`1-redis_op.js`)
+
+Using `promisify`, modify the function `displaySchoolValue` to use ES6 `async / await`
+
+Same result as `1-redis_op.js`
+```
+bob@dylan:~$ npm run dev 2-redis_op_async.js
+
+> queuing_system_in_js@1.0.0 dev /root
+> nodemon --exec babel-node --presets @babel/preset-env "2-redis_op_async.js"
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `babel-node --presets @babel/preset-env 2-redis_op_async.js`
+Redis client connected to the server
+School
+Reply: OK
+100
+^C
+
+bob@dylan:~$
+```
+
