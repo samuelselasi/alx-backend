@@ -112,3 +112,46 @@ Redis client connected to the server
 bob@dylan:~$
 ```
 
+[2. Node Redis client and basic operations](./1-redis_op.js)
+
+In a file `1-redis_op.js`, copy the code you previously wrote (`0-redis_client.js`).
+
+**Add two functions**:
+
+* `setNewSchool`:
+	* It accepts two arguments `schoolName`, and `value.`
+	* It should set in Redis the value for the key `schoolName`
+	* It should display a confirmation message using `redis.print`
+* `displaySchoolValue`:
+	* It accepts one argument `schoolName.`
+	* It should log to the console the `value` for the `key` passed as argument
+
+**At the end of the file, call**:
+
+* `displaySchoolValue('Holberton');`
+* `setNewSchool('HolbertonSanFrancisco', '100');`
+* `displaySchoolValue('HolbertonSanFrancisco');`
+
+### Requirements:
+
+* Use `callbacks` for any of the operation, we will look at `async` operations later
+```
+bob@dylan:~$ npm run dev 1-redis_op.js 
+
+> queuing_system_in_js@1.0.0 dev /root
+> nodemon --exec babel-node --presets @babel/preset-env "1-redis_op.js"
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `babel-node --presets @babel/preset-env 1-redis_op.js`
+Redis client connected to the server
+School
+Reply: OK
+100
+^C
+
+bob@dylan:~$
+```
+
